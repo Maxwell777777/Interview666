@@ -26,9 +26,6 @@ public class HeapSort implements Sort{
         for (int i = (len - 1) / 2; i >= 0; i--) {
             adjustHeap(i, len);
         }
-        for (int i = 0; i < len; i++) {
-            System.out.print(array[i] + "---");
-        }
         for (int i = len - 1; i >= 0; i--) {
             swap(0, i);
             adjustHeap(0, i);
