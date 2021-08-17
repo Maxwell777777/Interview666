@@ -1,7 +1,6 @@
 package com.mjt.algorithm.common;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -36,5 +35,6 @@ public class ArrayConvert {
 
         // List<String> 转 String[]
         String[] strings = stringList.toArray(new String[0]);
+
     }
 }
