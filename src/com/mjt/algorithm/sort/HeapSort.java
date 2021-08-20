@@ -6,7 +6,6 @@ package com.mjt.algorithm.sort;
  * @Description:
  */
 public class HeapSort implements Sort{
-    // test dev
 
     private int[] array;
 
