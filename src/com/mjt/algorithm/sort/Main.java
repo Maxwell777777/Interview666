@@ -8,8 +8,12 @@ package com.mjt.algorithm.sort;
 public class Main {
 //    private static int[] array = {3, 4, 1, 9, 5, 10};
     private static int[] array = {10, 6, 4, 4, 5, 8, 3};
+    static class A {
+
+    }
 
     public static void main(String[] args) {
+        new A();
         showArray();
 //        Sort sortAlgorithm = new QuickSort(array);
 //        Sort sortAlgorithm = new MergeSort(array);
